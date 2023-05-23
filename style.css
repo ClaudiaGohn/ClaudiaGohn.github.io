@@ -1,12 +1,20 @@
-body {
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* body {
   background: rgb(241,243,206);
   background: -moz-linear-gradient(164deg, rgba(241,243,206,1) 0%, rgba(241,243,206,1) 48%, rgba(0,0,0,1) 48%, rgba(255,217,128,1) 48.5%, rgba(255,204,66,1) 75%);
   background: -webkit-linear-gradient(164deg, rgba(241,243,206,1) 0%, rgba(241,243,206,1) 48%, rgba(0,0,0,1) 48%, rgba(255,217,128,1) 48.5%, rgba(255,204,66,1) 75%);
   background: linear-gradient(164deg, rgba(241,243,206,1) 0%, rgba(241,243,206,1) 48%, rgba(0,0,0,1) 48%, rgba(255,217,128,1) 48.5%, rgba(255,204,66,1) 75%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f1f3ce",endColorstr="#ffcc42",GradientType=1);
-}
+} */
 
-.content {
+/* .content {
   margin-top: 20%;
   margin-left: 10%;
   margin-right: 10%;
@@ -15,6 +23,15 @@ body {
   border-radius: 50px;
   font-family: Comfortaa;
   z-index: 1;
+} */
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
 
 .content_contain {
@@ -43,17 +60,8 @@ body {
   margin: 20px auto 0 auto;
 }
 
-#loginIcon {
-  margin-left: 38%;
-  margin-bottom: 10px;
-}
-
 h1 {
   line-height: 60px;
-}
-
-#joinNow {
-  margin: 2%;
 }
 
 .btn {
@@ -94,10 +102,6 @@ h2 {
 
 .custom-control {
   padding: 10px 0px 10px 25px;
-}
-
-.signup {
-  padding: 5px 0 5px 0;
 }
 
 form button {

@@ -12,6 +12,10 @@
     <script src="script.js"></script>
   </head>
   <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="stockweb.mov" type="video/mp4">
+    </video>
+    
     <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light shadow-lg p-3 mb-5">
       <h1>Claudia Gohn</h1>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,6 +35,15 @@
         </ul>
       </div>
     </nav>
+
+    <!-- Optional: some overlay text to describe the video -->
+    <div class="content">
+      <h1>Heading</h1>
+      <p>Lorem ipsum...</p>
+      <!-- Use a button to pause/play the video with JavaScript -->
+      <!-- <button id="myBtn" onclick="myFunction()">Pause</button> -->
+    </div>
+
     <div class="content shadow-lg p-3 mb-5">
       <div class="content_contain">
       </div>
@@ -39,25 +52,21 @@
       <div class="content_contain">
       </div>
     </div>
-    <footer class="page-footer font-small pt-4">
-        <div class="container-fluid text-center text-md-left">
-          <div class="row">
-            <hr class="clearfix w-100 d-md-none pb-3">
-              <div class="col-md-6 mt-md-0 mt-3">
-                <h4>OnePostt</h5>
-                <p>Let's create a fun and efficient way to manage social
-                media.</p>
-                <div id="socialMedia">
-                  <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
-                  <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
-                  <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                </div>
+    <!-- <footer class="page-footer font-small pt-4">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <hr class="clearfix w-100 d-md-none pb-3">
+            <div class="col-md-6 mt-md-0 mt-3">
+              <h4>Socials</h5>
+              <div id="socialMedia">
+                <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
               </div>
-          </div>
+            </div>
         </div>
-        <div class="footer-copyright text-center py-3">� 2018 Copyright:
-          <a href="#">claudiagohn@github.io</a>
-        </div>
-      </footer>
+      </div>
+      <div class="footer-copyright text-center py-3">© Claudia Gohn 2023</div>
+    </footer>
   </body>
 </html>
