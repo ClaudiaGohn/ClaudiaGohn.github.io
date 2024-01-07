@@ -1,0 +1,165 @@
+body {
+  background-color: #333333; /* Dark gray color */
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.content_contain {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  z-index: 2;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 100%;
+  min-width: 100%; /* Maintain aspect ratio */
+  object-fit: cover;
+}
+
+.video-container .text-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 50px; /* Adjust the left position as per your requirement */
+  color: white;
+  font-size: 30px;
+  text-align: left; /* Align the text to the left */
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* Add text shadow */
+  font-family: 'Sevillana', cursive;
+}
+
+#log_contain {
+  display: flex;
+  flex-direction: column;
+}
+
+#btn_log {
+  width: 200px;
+  margin: auto;
+}
+
+#btn_sign {
+  width: 200px;
+  margin: auto;
+}
+
+#new_user {
+  margin: 20px auto 0 auto;
+}
+
+h1 {
+  line-height: 60px;
+}
+
+.btn {
+  border-radius: 30px;
+}
+
+.nav-item {
+    border-radius: 20px;
+    text-align: center;
+}
+
+.nav-link {
+  margin: 0px 10px 0px 10px;
+  white-space: nowrap;
+}
+
+.navbar-brand {
+  padding: 0px 50px 0px 10px;
+  width: 150px;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+.subDescription {
+  margin-left: 10%;
+}
+
+.modal-content {
+  border-radius: 30px;
+  font-family: Comfortaa, Arial;
+}
+
+.custom-control {
+  padding: 10px 0px 10px 25px;
+}
+
+form button {
+  width: 100px;
+}
+
+/* footer {
+  background-color: #f1f3ce;
+} */
+
+.page-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  min-height: 50px; /* Adjust the minimum height as per your requirement */
+}
+
+.page-footer .container-fluid {
+  text-align: center;
+}
+
+.page-footer h4 {
+  margin-bottom: 10px;
+}
+
+/* #socialMedia {
+  margin-top: 20px;
+} */
+
+#socialMedia a {
+  margin-right: 10px;
+}
+
+.footer-copyright {
+  margin-top: 20px;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
