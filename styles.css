@@ -1,35 +1,9 @@
-/* body {
-  background-image: linear-gradient(45deg, #f5f5f5 25%, transparent 25%),
-                    linear-gradient(-45deg, #f5f5f5 25%, transparent 25%),
-                    linear-gradient(45deg, transparent 75%, #f5f5f5 75%),
-                    linear-gradient(-45deg, transparent 75%, #f5f5f5 75%);
-  background-size: 500px 500px;
-  background-position: 0 0, 0 250px, 250px -250px, -250px 0px;
-} */
-
 body {
   background-color: #515151;
 }
 
 .navbar {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
-
-}
-
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-
-.content_contain {
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
-  z-index: 2;
 }
 
 .video-container {
@@ -38,28 +12,26 @@ body {
   height: 60%;
   overflow: hidden;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8);
-}
-
-.video-container video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: auto;
-  height: 100%;
-  min-width: 100%; /* Maintain aspect ratio */
-  object-fit: cover;
-}
-
-.video-container .text-overlay {
-  position: absolute;
-  bottom: 20px;
-  left: 50px; /* Adjust the left position as per your requirement */
-  color: white;
-  font-size: 50px;
-  text-align: left; /* Align the text to the left */
-  text-shadow: 10px 10px 20px rgba(0, 0, 0); /* Add text shadow */
-  font-family: 'Sevillana', cursive;
+  .text-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 50px; /* Adjust the left position as per your requirement */
+    color: white;
+    font-size: 50px;
+    text-align: left; /* Align the text to the left */
+    text-shadow: 10px 10px 20px rgba(0, 0, 0); /* Add text shadow */
+    font-family: 'Sevillana', cursive;
+  }
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 100%;
+    min-width: 100%; /* Maintain aspect ratio */
+    object-fit: cover;
+  }
 }
 
 #log_contain {
@@ -142,21 +114,9 @@ form button {
   text-align: center;
 }
 
-/* .page-footer h4 {
-  margin-bottom: px;
-} */
-
-/* #socialMedia {
-  margin-top: 20px;
-} */
-
 #socialMedia a {
   margin-right: 10px;
 }
-
-/* .footer-copyright {
-  margin-top: 20px;
-} */
 
 .image-section {
   display: flex;
