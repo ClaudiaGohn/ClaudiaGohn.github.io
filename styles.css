@@ -1,5 +1,19 @@
+/* body {
+  background-image: linear-gradient(45deg, #f5f5f5 25%, transparent 25%),
+                    linear-gradient(-45deg, #f5f5f5 25%, transparent 25%),
+                    linear-gradient(45deg, transparent 75%, #f5f5f5 75%),
+                    linear-gradient(-45deg, transparent 75%, #f5f5f5 75%);
+  background-size: 500px 500px;
+  background-position: 0 0, 0 250px, 250px -250px, -250px 0px;
+} */
+
 body {
-  background-color: #333333; /* Dark gray color */
+  background-color: #515151;
+}
+
+.navbar {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+
 }
 
 .content {
@@ -23,7 +37,7 @@ body {
   width: 100%;
   height: 60%;
   overflow: hidden;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8);
 }
 
 .video-container video {
@@ -42,9 +56,9 @@ body {
   bottom: 20px;
   left: 50px; /* Adjust the left position as per your requirement */
   color: white;
-  font-size: 30px;
+  font-size: 50px;
   text-align: left; /* Align the text to the left */
-  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* Add text shadow */
+  text-shadow: 10px 10px 20px rgba(0, 0, 0); /* Add text shadow */
   font-family: 'Sevillana', cursive;
 }
 
@@ -94,10 +108,6 @@ h1 {
   margin-right: 10px;
 }
 
-h2 {
-  margin-top: 50px;
-}
-
 .subDescription {
   margin-left: 10%;
 }
@@ -120,21 +130,21 @@ form button {
 } */
 
 .page-footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
   background-color: #f8f9fa;
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
   padding: 10px 0;
-  min-height: 50px; /* Adjust the minimum height as per your requirement */
+  color: #f6f6f6;
+  background-color: #333333;
 }
 
 .page-footer .container-fluid {
   text-align: center;
 }
 
-.page-footer h4 {
-  margin-bottom: 10px;
-}
+/* .page-footer h4 {
+  margin-bottom: px;
+} */
 
 /* #socialMedia {
   margin-top: 20px;
@@ -144,8 +154,127 @@ form button {
   margin-right: 10px;
 }
 
-.footer-copyright {
+/* .footer-copyright {
   margin-top: 20px;
+} */
+
+.image-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-link {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.image-link img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1s;
+}
+
+.image-link:hover img {
+  transform: scale(1.1);
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #f6f6f6;
+  opacity: 0;
+  border-radius: 30px;
+  transition: opacity 0.5s;
+}
+
+.image-link:hover .image-overlay {
+  opacity: 1;
+}
+.writing-section {
+  /* max-width: calc(100% - 100px); */
+  margin: 100px auto;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: #6b6b6b;
+  color: #ffffff;
+  /* background: linear-gradient(10deg, #f6eccf 50%, #ddd8d8 50%); */
+}
+
+.writing-header {
+  margin-top: 0;
+  text-align: left;
+  font-size: 32px;
+  /* color: #ffffff; */
+  /* background-color: #1a237e; */
+  padding: 20px;
+  margin-left: 20px;
+  /* border-radius: 10px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+}
+
+.image-overlay h2,
+.image-overlay p {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.about-image {
+  flex: 0 0 50%;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+.about-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #6b6b6b;
+  color: #ffffff;
+  /* background: linear-gradient(-15deg, #d1cab7 50%, #c0c9ef 50%); */
+}
+
+.about-text {
+  flex: 0 0 60%;
+  position: relative;
+}
+
+.about-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-size: 16px;
 }
 
 @media (min-width: 576px) {

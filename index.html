@@ -14,8 +14,8 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light shadow-lg p-3 mb-5">
-      <h1>Claudia Gohn</h1>
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark p-3 mb-5">
+      <h1 class="pr-5 text-light">Claudia Gohn</h1>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,10 +25,10 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="about.html">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About Me</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
         </ul>
       </div>
@@ -38,25 +38,61 @@
         <source src="assets/stock.mp4" type="video/mp4">
       </video>
       <div class="text-overlay">
-        <h1>How can a Psychic Change your Life?</h1>
-        <p>Take a look at my latest documentary project</p>
+        <p>How can a Psychic Change your Life?</p>
+        <h1>Take a look at my latest <a href="https://www.youtube.com/watch?v=RSTDgc7dbyc&pp=ygUed2hpc2tleSByaXZlciBieSB3aWxsaWUgbmVsc29u" target="_blank">documentary</a>.</h1>
       </div>
     </div>
-    <footer class="page-footer font-small pt-4">
-      <div class="container-fluid text-center text-md-left">
+    <div class="about-section">
+      <div class="about-image">
+        <img src="assets/images/profile-pic.webp" alt="About Me">
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>Summary</p>
+      </div>
+    </div>
+    <div class="writing-section">
+      <h2 class="writing-header">Check out some of my latest articles</h2>
+      <div class="image-section">
+        <a href="https://www.c-ville.com/dousing-the-fire" target="_blank" class="image-link">
+          <img src="assets/images/articles/dousing-the-fire.jpg" alt="Dousing the fire">
+          <div class="image-overlay">
+            <h2>Dousing the fire</h2>
+            <p>Madison County volunteers help fight the Quaker Run blaze</p>
+          </div>
+        </a>
+        <a href="https://www.c-ville.com/community-business" target="_blank" class="image-link">
+          <img src="assets/images/articles/community-business.jpg" alt="Community Business">
+          <div class="image-overlay">
+            <h2>Community Business</h2>
+            <p>As the owner of Beehive Events, a flower and décor businessshe launched in 2006, Shawn Cosette is no stranger to...</p>
+          </div>
+        </a>
+        <a href="https://www.c-ville.com/a-book-for-everyone" target="_blank" class="image-link">
+          <img src="assets/images/articles/a-book-for-everyone.jpg" alt="Image 2">
+          <div class="image-overlay">
+            <h2>A book for everyone</h2>
+            <p>The Free Book Bus gives children and adults access essential items</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <footer class="page-footer font-small">
+      <!-- <div class="container-fluid text-center text-md-left">
         <div class="row">
           <hr class="clearfix w-100 d-md-none pb-3">
           <div class="col-md-6 mt-md-0 mt-3">
+            <h4>Socials</h4>
             <div id="socialMedia">
               <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
               <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
               <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
             </div>
           </div>
-          <div class="col-md-6 mt-md-0 mt-3 text-md-right">
-            <p>&copy; Claudia Gohn 2023</p>
-          </div>
         </div>
+      </div> -->
+      <div class="footer-copyright text-center py-3">
+        © Claudia Gohn 2023
       </div>
     </footer>
   </body>
