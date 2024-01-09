@@ -1,27 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coming Soon</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-    }
-
-    h1 {
-      font-size: 36px;
-      color: #333333;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
-  <h1>Page Coming Soon</h1>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="styles.css" type="text/css" rel="stylesheet">
+  </head>
+  <body class="portfolio-body">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark p-3 mb-5">
+      <h1 class="pr-5 text-light">Claudia Gohn</h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="portfolio-header">Portfolio</h1>
+    <div class="writing-section">
+      <h2>Writing</h2>
+      <div class="image-section">
+        <a href="https://www.c-ville.com/dousing-the-fire" target="_blank" class="image-link">
+          <img src="assets/images/articles/dousing-the-fire.jpg" alt="Dousing the fire">
+          <div class="image-overlay">
+            <h2>Dousing the fire</h2>
+            <p>Madison County volunteers help fight the Quaker Run blaze</p>
+          </div>
+        </a>
+        <a href="https://www.c-ville.com/community-business" target="_blank" class="image-link">
+          <img src="assets/images/articles/community-business.jpg" alt="Community Business">
+          <div class="image-overlay">
+            <h2>Community Business</h2>
+            <p>As the owner of Beehive Events, a flower and décor businessshe launched in 2006, Shawn Cosette is no stranger to...</p>
+          </div>
+        </a>
+        <a href="https://www.c-ville.com/a-book-for-everyone" target="_blank" class="image-link">
+          <img src="assets/images/articles/a-book-for-everyone.jpg" alt="Image 2">
+          <div class="image-overlay">
+            <h2>A book for everyone</h2>
+            <p>The Free Book Bus gives children and adults access essential items</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <h2>Documentary Filmaking</h2>
+    <h2>Photography</h2>
+    <footer class="page-footer font-small">
+      <div class="footer-copyright text-center py-3">
+        © Claudia Gohn 2023
+      </div>
+    </footer>
+  </body>
 </html>
