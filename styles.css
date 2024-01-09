@@ -61,33 +61,47 @@ body {
   z-index: -1;
   #camera-bg {
     position: absolute;
-    top: 70px;
-    right: 100px;
-    width: 350px;
+    top: 5%;
+    right: 7%;
+    width: 22%;
     filter: brightness(0.3)
   }
   #line-1 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 20px;
-    background-image: linear-gradient(to right, transparent 25%, #ffc0cb88 25%);
+    top: 15%;
+    right: 10%;
+    width: 40%;
+    height: 1vw;
+    background-image: linear-gradient(to right, transparent 25%, #ffc0cb60 25%);
     background-size: 100px 100%;
     background-repeat: repeat-x;
-    transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-15deg);
+    transform-origin: top right;
+  }
+  #line-2 {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    width: 50%;
+    height: 1vw;
+    background-image: linear-gradient(to right, transparent 25%, #ffc0cb60 25%);
+    background-size: 100px 100%;
+    background-repeat: repeat-x;
+    transform: translate(-50%, -50%) rotate(10deg);
+    transform-origin: top right;
   }
   #newspaper-bg {
     position: absolute;
-    top: 300px;
-    left: 20px;
-    width: 350px;
+    top: 20%;
+    left: 3%;
+    width: 22%;
     filter: brightness(0.3)
   }
   #theater-bg {
     position: absolute;
-    top: 525px;
-    right: 20px;
-    width: 350px;
+    top: 38%;
+    right: 3%;
+    width: 22%;
     filter: brightness(0.3)
   }
 }
