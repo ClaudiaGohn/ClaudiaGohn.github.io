@@ -16,7 +16,9 @@
   height: 100%;
   overflow: hidden;
   .text-overlay {
+    background-color: rgba(0, 0, 0, 0.2);
     position: fixed;
+    padding: 20px;
     bottom: 40%;
     left: 100px; /* Adjust the left position as per your requirement */
     color: white;
@@ -24,7 +26,11 @@
     text-align: left; /* Align the text to the left */
     text-shadow: 10px 10px 20px rgba(0, 0, 0); /* Add text shadow */
     font-family: 'Sevillana', cursive;
+    border-radius: 10px;
     z-index: 0;
+    a {
+      color: #90d5e9;
+    }
   }
   video {
     position: fixed;
