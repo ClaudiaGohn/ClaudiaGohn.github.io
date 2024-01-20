@@ -135,12 +135,12 @@
   .about-text {
     width: 40%;
     h2 {
-      font-size: 1.5rem;
+      font-size: 2rem;
       font-weight: bold;
       margin-bottom: 10px;
     }
     p {
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
   }
 }
