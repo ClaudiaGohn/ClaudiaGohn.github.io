@@ -17,19 +17,19 @@ const data = {
       {
         title: "Dousing the fire",
         description: "Madison County volunteers help fight the Quaker Run blaze.",
-        image: "0.jpg",
+        image: "dousing-the-fire.jpg",
         link: "https://www.c-ville.com/dousing-the-fire"
       },
       {
         title: "Building Solidarity Among Astoria Tenants",
         description: "A budding tenants union in Astoria hopes to organize across buildings.",
-        image: "1.jpg",
+        image: "building-solidarity.jpg",
         link: "https://indypendent.org/2023/12/building-solidarity-among-astoria-tenants/"
       },
       {
         title: "Nature and Justice: Multimedia Artist Saharah Uses Her Voice to Demand Action",
         description: "This episode is about henna artist and singer-songwriter, Saharah, and her motivations as a creative.",
-        image: "2.jpg",
+        image: "nature-justice.jpg",
         link: "https://open.spotify.com/episode/1Oi1ObLv4DQyTfMDMq7cHM?si=f33e671578ef4858"
       }
     ],
@@ -37,23 +37,32 @@ const data = {
       writing: [
         {
           title: "Dousing the fire",
-          image: "images/writing/dousing-the-fire.jpg",
+          image: "dousing-the-fire.jpg",
           link: "https://www.c-ville.com/dousing-the-fire"
         },
         {
           title: "Building Solidarity Among Astoria Tenants",
-          image: "images/writing/building-solidarity-among-astoria-tenants.jpg",
+          image: "building-solidarity.jpg",
           link: "https://indypendent.org/2023/12/building-solidarity-among-astoria-tenants/"
         }
       ],
       filmmaking: [
-
+        {
+          title: "Building Solidarity Among Astoria Tenants",
+          image: "building-solidarity.jpg",
+          link: "https://indypendent.org/2023/12/building-solidarity-among-astoria-tenants/"
+        }
       ],
       audio: [
-
+        {
+          title: "Nature and Justice: Multimedia Artist Saharah Uses Her Voice to Demand Action",
+          image: "nature-justice.jpg",
+          link: "https://open.spotify.com/episode/1Oi1ObLv4DQyTfMDMq7cHM?si=f33e671578ef4858"
+        }
       ],
       photography: [
-        
+        "nature-justice.jpg",
+        "building-solidarity.jpg"
       ]
     }
   }
@@ -61,6 +70,39 @@ const data = {
 /*****************************
  * END CONTENT MODIFICATION
  ****************************/
+
+function carouselItem(item, index, large = false) {
+  const div = document.createElement("div");
+  div.classList.add("carousel-item");
+  index === 0 && div.classList.add("first-item");
+  large && div.classList.add("large");
+  const anchor = document.createElement("a");
+  anchor.href = item.link;
+  anchor.target = "_blank";
+  const image = document.createElement("img");
+  image.src = `assets/images/portfolio/${item.image}`;
+  image.alt = item.title;
+  const overlay = document.createElement("div");
+  overlay.classList.add("overlay");
+  const paragraph = document.createElement("p");
+  paragraph.innerHTML = item.title;
+  overlay.appendChild(paragraph);
+  anchor.appendChild(image);
+  anchor.appendChild(overlay);
+  div.appendChild(anchor);
+  return div;
+}
+
+function carouselImage(item, index) {
+  const div = document.createElement("div");
+  div.classList.add("carousel-item");
+  div.classList.add("large");
+  index === 0 && div.classList.add("first-item");
+  const image = document.createElement("img");
+  image.src = `assets/images/portfolio/${item}`;
+  div.appendChild(image);
+  return div;
+}
 
 document.addEventListener('DOMContentLoaded', () => {
   const currentPage = window.location.pathname.split("/").pop().split(".")[0];
@@ -78,13 +120,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     // Highlights
     const highlights = document.getElementById("highlights");
-    data.home.highlights.forEach((article, index) => {
+    data.home.highlights.forEach(article => {
       const anchor = document.createElement("a");
       anchor.classList.add("image-link");
       anchor.href = article.link;
       anchor.target = "_blank";
       const image = document.createElement("img");
-      image.src = `assets/images/highlights/${article.image}`;
+      image.src = `assets/images/portfolio/${article.image}`;
       image.alt = article.title;
       const overlay = document.createElement("div");
       overlay.classList.add("image-overlay");
@@ -102,17 +144,23 @@ document.addEventListener('DOMContentLoaded', () => {
     /* PORTFOLIO */
     // Writing
     const writing = document.getElementById("writingCarousel");
-    data.home.portfolio.writing.forEach(article => {
-      const articleDiv = document.createElement("div");
-      articleDiv.classList.add("carousel-item");
-      if (article === data.home.portfolio.writing[0]) {
-        articleDiv.classList.add("first-item");
-      }
-      articleDiv.innerHTML = `<img class="d-block w-100" src="${article.image}" alt="${article.title}">`;
-      writing.appendChild(articleDiv);
+    data.home.portfolio.writing.forEach((article, index) => {
+      writing.appendChild(carouselItem(article, index));
     });
     // Documentary Filmmaking
+    const filmmaking = document.getElementById("filmmakingCarousel");
+    data.home.portfolio.filmmaking.forEach((article, index) => {
+      filmmaking.appendChild(carouselItem(article, index, true));
+    });
     // Audio Journalism
+    const audio = document.getElementById("audioCarousel");
+    data.home.portfolio.audio.forEach((article, index) => {
+      audio.appendChild(carouselItem(article, index));
+    });
     // Photography
+    const photography = document.getElementById("photographyCarousel");
+    data.home.portfolio.photography.forEach((article, index) => {
+      photography.appendChild(carouselImage(article, index));
+    });
   }
 });
