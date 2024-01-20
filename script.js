@@ -14,18 +14,18 @@ const data = {
     highlights: [
       {
         title: "Dousing the fire",
-        description: "Madison County volunteers help fight the Quaker Run blaze",
+        description: "Madison County volunteers help fight the Quaker Run blaze.",
         link: "https://www.c-ville.com/dousing-the-fire"
       },
       {
-        title: "Community Business",
-        description: "As the owner of Beehive Events, a flower and décor businessshe launched in 2006, Shawn Cosette is no stranger to...",
-        link: "https://www.c-ville.com/community-business"
+        title: "Building Solidarity Among Astoria Tenants",
+        description: "A budding tenants union in Astoria hopes to organize across buildings.",
+        link: "https://indypendent.org/2023/12/building-solidarity-among-astoria-tenants/"
       },
       {
-        title: "A Book For Everyone",
-        description: "The Free Book Bus gives children and adults access essential items",
-        link: "https://www.c-ville.com/a-book-for-everyone"
+        title: "Nature and Justice: Multimedia Artist Saharah Uses Her Voice to Demand Action",
+        description: "This episode is about henna artist and singer-songwriter, Saharah, and her motivations as a creative.",
+        link: "https://open.spotify.com/episode/1Oi1ObLv4DQyTfMDMq7cHM?si=f33e671578ef4858"
       }
     ],
     portfolio: {
