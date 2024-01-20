@@ -280,10 +280,10 @@
     display: inline-block;
     margin-right: 40px;
     position: relative;
-    width: 10%;
+    width: 350px;
   }
   .carousel-item.large {
-    width: 30%;
+    width: 600px;
     margin-right: 100px;
   }
 
