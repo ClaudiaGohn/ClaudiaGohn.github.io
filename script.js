@@ -63,9 +63,7 @@ const data = {
  ****************************/
 
 document.addEventListener('DOMContentLoaded', () => {
-  const currentPage = window.location.pathname.split("/").pop().split(".")[0];
-  console.log(currentPage);
-    if (currentPage === "index") {
+  if (window.location.pathname.split("/").pop().split(".")[0] === "index") {
     /* HOME */
     // Video
     document.getElementById("videoTitle").innerHTML = data.home.video.title;
