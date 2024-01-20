@@ -1,0 +1,53 @@
+{
+  "home": {
+    "video": {
+      "title": "How Can a Psychic Change Your Life?",
+      "link": "https://vimeo.com/904624779"
+    },
+    "about": "About me ...",
+    "articles": [
+      {
+        "title": "Dousing the fire",
+        "description": "Madison County volunteers help fight the Quaker Run blaze",
+        "link": "http://www.google.com"
+      },
+      {
+        "title": "Community Business",
+        "description": "As the owner of Beehive Events, a flower and décor businessshe launched in 2006, Shawn Cosette is no stranger to...",
+        "link": "http://www.google.com"
+      },
+      {
+        "title": "A book for everyone",
+        "description": "The Free Book Bus gives children and adults access essential items",
+        "link": "http://www.google.com"
+      }
+    ]
+  },
+  "portfolio": {
+    "writing": [
+      {
+        "title": "",
+        "link": "",
+        "image": ""
+      }
+    ],
+    "filmaking": [
+      {
+        "title": "",
+        "description": "",
+        "link": "",
+        "image": ""
+      }
+    ],
+    "audio": [
+      {
+        "title": "",
+        "link": "",
+        "image": ""
+      }
+    ],
+    "photography": [
+      ""
+    ]
+  }
+}
