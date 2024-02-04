@@ -48,9 +48,9 @@ const data = {
       ],
       filmmaking: [
         {
-          title: "Building Solidarity Among Astoria Tenants",
-          image: "building-solidarity.jpg",
-          link: "https://indypendent.org/2023/12/building-solidarity-among-astoria-tenants/"
+          title: "How Can A Psychic Change Your Life?",
+          image: "psychic-change-life.png",
+          link: "https://vimeo.com/904624779?share=copy"
         }
       ],
       audio: [
@@ -61,8 +61,6 @@ const data = {
         }
       ],
       photography: [
-        "nature-justice.jpg",
-        "building-solidarity.jpg"
       ]
     }
   }
