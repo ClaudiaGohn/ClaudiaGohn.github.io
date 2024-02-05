@@ -44,6 +44,16 @@ const data = {
           title: "Building Solidarity Among Astoria Tenants",
           image: "building-solidarity.jpg",
           link: "https://indypendent.org/2023/12/building-solidarity-among-astoria-tenants/"
+        },
+        {
+          title: "Building Solidarity Among Astoria Tenants",
+          image: "building-solidarity.jpg",
+          link: "https://indypendent.org/2023/12/building-solidarity-among-astoria-tenants/"
+        },
+        {
+          title: "Living legacy: Fourth-year UVA swimmers lead team to third national title",
+          image: "living-legacy.jpeg",
+          link: "https://www.c-ville.com/living-legacy"
         }
       ],
       filmmaking: [
