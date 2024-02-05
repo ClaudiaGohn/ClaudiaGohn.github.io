@@ -46,9 +46,9 @@ const data = {
           link: "https://indypendent.org/2023/12/building-solidarity-among-astoria-tenants/"
         },
         {
-          title: "Building Solidarity Among Astoria Tenants",
-          image: "building-solidarity.jpg",
-          link: "https://indypendent.org/2023/12/building-solidarity-among-astoria-tenants/"
+          title: "Another day, another Olympian: UVA women’s swim team adds Olympic medalist to its roster",
+          image: "claire-curzan.jpeg",
+          link: "https://www.c-ville.com/another-day-another-olympian"
         },
         {
           title: "Living legacy: Fourth-year UVA swimmers lead team to third national title",
