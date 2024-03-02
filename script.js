@@ -19,7 +19,7 @@ const data = {
         description: "Mandatory military service in Israel has left some young Israelis facing a stark choice: fight or be branded outsiders.",
         image: "shoresh.jpeg",
         link: "https://www.aljazeera.com/features/2024/3/1/in-new-york-israeli-conscientious-objectors-find-community-after-ostracism"
-      }
+      },
       {
         title: "Dousing the fire",
         description: "Madison County volunteers help fight the Quaker Run blaze.",
