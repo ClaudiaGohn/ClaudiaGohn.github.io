@@ -10,10 +10,16 @@ const data = {
     about: [
       "Claudia Gohn is an emerging documentary filmmaker and journalist based in New York and Virginia. She graduated in 2022 from Columbia University, where she earned her B.A. in English and Hispanic Studies. Following graduation, she became the Post-Baccalaureate Follow at Barnard College's Media Center, where her responsibilities as a fellow include managing the production studio, developing workshops, assisting with social media, and other administrative tasks.",
       "In addition to her fellowship, Claudia is a part-time student at Columbia University's Graduate School of Journalism. Her reporting at the school has included coverage of the Astoria neighborhood in Queens and housing rights in the city. She intends to continue developing her skills as a reporter and visual journalist.",
-      "Claudia is also a freelance journalist, and her work has recently been included in C-VILLE Weekly and The Indypendent.",
+      "Claudia is also a freelance journalist, and her work has recently been included in C-VILLE Weekly, Al Jazeera, and The Indypendent.",
       "In her free time, Claudia enjoys reading, making friendship bracelets, and watching reality television."
     ],
     highlights: [
+       {
+        title: "In New York, Israeli conscientious objectors find community after ostracism",
+        description: "Mandatory military service in Israel has left some young Israelis facing a stark choice: fight or be branded outsiders.",
+        image: "shoresh.jpeg",
+        link: "https://www.aljazeera.com/features/2024/3/1/in-new-york-israeli-conscientious-objectors-find-community-after-ostracism"
+      }
       {
         title: "Dousing the fire",
         description: "Madison County volunteers help fight the Quaker Run blaze.",
@@ -26,12 +32,6 @@ const data = {
         image: "building-solidarity.jpg",
         link: "https://indypendent.org/2023/12/building-solidarity-among-astoria-tenants/"
       },
-      {
-        title: "Nature and Justice: Multimedia Artist Saharah Uses Her Voice to Demand Action",
-        description: "This episode is about henna artist and singer-songwriter, Saharah, and her motivations as a creative.",
-        image: "nature-justice.jpg",
-        link: "https://open.spotify.com/episode/1Oi1ObLv4DQyTfMDMq7cHM?si=f33e671578ef4858"
-      }
     ],
     portfolio: {
       writing: [
