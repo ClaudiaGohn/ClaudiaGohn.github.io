@@ -37,17 +37,17 @@ const data = {
       writing: [
         {
           title: "Inside the Columbia University Student Encampment — and the Crackdown",
-          image: "ROLLINGSTONE.PNG",
+          image: "rolling-stone.png",
           link: "https://www.rollingstone.com/politics/politics-features/columbia-university-inside-student-encampment-protest-crackdown-1235013724/"
         },
         {
           title: "Inside the NYPD’s ‘Dystopian’ Raid on Columbia Student Protesters",
-          image: "HELLGATE.PNG",
+          image: "hell-gate.png",
           link: "https://hellgatenyc.com/nypd-raid-columbia-student-protesters-gaza-encampment-hamilton-hall"
         },
         {
           title: "Police and pro-Palestine protests at Columbia University",
-          image: "CTXT.PNG",
+          image: "ct-xt.png",
           link: "https://ctxt.es/es/20240401/Politica/46234/Claudia-Gohn-Anna-Oakes-protests-columbia-university-palestine.htm"
         },
         {
