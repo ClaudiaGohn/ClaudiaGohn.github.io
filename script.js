@@ -10,7 +10,7 @@ const data = {
     about: [
       "Claudia Gohn is an emerging documentary filmmaker and journalist based in New York and Virginia. She graduated in 2022 from Columbia University, where she earned her B.A. in English and Hispanic Studies. Following graduation, she became the Post-Baccalaureate Follow at Barnard College's Media Center, where her responsibilities as a fellow include managing the production studio, developing workshops, assisting with social media, and other administrative tasks.",
       "In addition to her fellowship, Claudia is a part-time student at Columbia University's Graduate School of Journalism. Her reporting at the school has included coverage of the Astoria neighborhood in Queens and housing rights in the city. She intends to continue developing her skills as a reporter and visual journalist.",
-      "Claudia is also a freelance journalist, and her work has recently been included in C-VILLE Weekly, Al Jazeera, and The Indypendent.",
+      "Claudia is also a freelance journalist, and her work has recently been included in Rolling Stone, Al Jazeera English, and C-VILLE Weekly.",
       "In her free time, Claudia enjoys reading, making friendship bracelets, and watching reality television."
     ],
     highlights: [
@@ -35,6 +35,21 @@ const data = {
     ],
     portfolio: {
       writing: [
+        {
+          title: "Inside the Columbia University Student Encampment — and the Crackdown",
+          image: "ROLLINGSTONE.PNG",
+          link: "https://www.rollingstone.com/politics/politics-features/columbia-university-inside-student-encampment-protest-crackdown-1235013724/"
+        },
+        {
+          title: "Inside the NYPD’s ‘Dystopian’ Raid on Columbia Student Protesters",
+          image: "HELLGATE.PNG",
+          link: "https://hellgatenyc.com/nypd-raid-columbia-student-protesters-gaza-encampment-hamilton-hall"
+        },
+        {
+          title: "Police and pro-Palestine protests at Columbia University",
+          image: "CTXT.PNG",
+          link: "https://ctxt.es/es/20240401/Politica/46234/Claudia-Gohn-Anna-Oakes-protests-columbia-university-palestine.htm"
+        },
         {
           title: "Dousing the fire",
           image: "dousing-the-fire.jpg",
